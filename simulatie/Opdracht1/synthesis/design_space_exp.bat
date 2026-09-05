@@ -1,0 +1,1 @@
+@start C:/intelFPGA_lite/21.1/quartus/bin64/quartus_dsew.exe --launcher local -project "C:/Users/bkse/home/vakken/ti_cp/DSO/practicum/VHDL/2024-2025/opdracht_assignment1/simulatie/Opdracht1/synthesis/Opdracht1.qpf"

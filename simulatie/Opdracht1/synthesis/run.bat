@@ -1,0 +1,1 @@
+C:/intelFPGA_lite/21.1/quartus/bin64/quartus_sh.exe --flow compile Opdracht1.qpf -c toplevel > implementation.dfml

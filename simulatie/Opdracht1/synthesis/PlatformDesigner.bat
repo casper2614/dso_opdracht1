@@ -1,0 +1,1 @@
+C:/intelFPGA_lite/21.1/quartus/sopc_builder/bin/qsys-edit.exe "" --project-dir="C:/Users/bkse/home/vakken/ti_cp/DSO/practicum/VHDL/2024-2025/opdracht_assignment1/simulatie/Opdracht1/synthesis" --system-info=DEVICE_FAMILY="Max10" --system-info=DEVICE="10M50DAF484C7G" --system-info=DEVICE_SPEEDGRADE="7G" --jvm-max-heap-size="512M"

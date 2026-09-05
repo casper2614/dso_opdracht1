@@ -1,0 +1,132 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=opdracht1
+[Library]
+Opdracht1=.\Opdracht1\Opdracht1.lib
+opdracht1_timing=.\opdracht1_timing\opdracht1_timing.lib
+[$LibMap$]
+Opdracht1=.
+Active_lib=
+[Settings]
+RUN_MODE_SYNTH=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=IMPL_WITH_SYNTH
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+fileopenfolder=C:\Users\bkse\home\vakken\ti_cp\DSO\practicum\VHDL\2024-2025\opdracht_assignment1
+CSYNTH_STATUS=NONE
+IMPL_TOOL=
+SYNTH_TOOL=MV_QUARTUS_SYNTHESIS231
+CSYNTH_TOOL=
+PHYSSYNTH_TOOL=
+FAMILY=Quartus Max10
+PHYSSYNTH_STATUS=NONE
+SYNTH_STATUS=warnings
+IMPL_STATUS=warnings
+PCBINTERFACE_STATUS=ERRORS
+FUNCTIONAL_SIMULATION_STATUS=
+POSTSYNTHESIS_SIMULATION_STATUS=
+TIMING_SIMULATION_STATUS=
+VerilogDirsChanged=0
+FUNC_LIB=opdracht1
+TIM_LIB=opdracht1_timing
+[Files]
+/..\..\..\DE10_7SegmentDriver.vhd=-1
+/TestBench.vhdl=-1
+/Resultaat.asdb=-1
+/Resultaat.awc=-1
+/..\..\..\TopLevel.vhd=-1
+timing/..\..\synthesis\simulation\activehdl\toplevel.vho=-1
+[Files.Data]
+.\..\..\DE10_7SegmentDriver.vhd=VHDL Source Code
+.\src\TestBench.vhdl=VHDL Source Code
+.\src\Resultaat.asdb=Accelerated Waveform File
+.\src\Resultaat.awc=Accelerated Waveform Configuration
+.\..\..\TopLevel.vhd=VHDL Source Code
+.\synthesis\simulation\activehdl\toplevel.vho=VHDL SOURCE CODE
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=
+[PCB_INTERFACE]
+FAMILY=
+[SIM.TIME]
+TOPLEVEL=toplevel
+SDF_PATH=
+[SIM.FUNC]
+FJD=FunctionalSimTask
+FST=-all
+OPTION=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=log\*.*:synthesis\*.*:implement\*.*
+SERVERFARM_SFM_RESOURCE=
+TOPLEVEL=testbench
+WAVEFORMS=
+DEFWAVE=1
+ADD_HIERARCHY_SIGNALS=0
+[SYNTHESIS]
+TOPLEVEL=toplevel
+FAMILY=Quartus Max10
+DEVICE=10M50DAF484C
+SPEED=7G
+LAST_RUN=1751963782
+JOB_DESCRIPTION=SynthesisTask
+JOB_SFM_RESOURCE=
+ENABLE_SIGNALTAP=0
+SERVERFARM_INCLUDE_INPUT_FILES=*.*
+SERVERFARM_EXCLUDE_INPUT_FILES=
+OVERWRITE_PROJECT=1
+AUTO_CLOSE=0
+QSF_FILE_SELECTION=synthesis/toplevel.qsf
+CHECK_PROJECT_OUTPUT_DIRECTORY=0
+CHECK_OPTIMIZE_HOLD_TIMING=1
+USE_SIGNALTAP_FILE=
+ENABLE_LOGIC_ANALYZER_INTERFACE=0
+USE_LOGIC_ANALYZER_INTERFACE_FILE=
+OLD_FAMILY=Quartus Max10
+CHECK_IMPORT_PIN_ASSIGNMENTS=1
+IMPORT_PIN_ASSIGNMENTS=.\..\..\pintoewijzingen.qsf
+CHECK_GENERATE_FPGA_EXCHANGE_FILE=0
+GENERATE_FPGA_EXCHANGE_FILE=.\symbols\fpgaxchange
+BTM_IO_STANDARD=1.2V
+DEFAULT_QUARTUS_SETTINGS_FILE=..\..\..\..\..\..\..\..\..\..\..\..\intelFPGA_lite\21.1\quartus\bin64\assignment_defaults.qdf
+OUTPUT_IO_TIMING_NEAR_END_VMEAS_RISE=Half Signal Swing
+OUTPUT_IO_TIMING_NEAR_END_VMEAS_FALL=Half Signal Swing
+OUTPUT_IO_TIMING_FAR_END_VMEAS_RISE=Half Signal Swing
+OUTPUT_IO_TIMING_FAR_END_VMEAS_FALL=Half Signal Swing
+[PHYS_SYNTHESIS]
+FAMILY=Quartus Max10
+DEVICE=
+SPEED=
+SCRIPTS_COPIED=0
+[IMPLEMENTATION]
+FLOW_STEPS_RESET=1
+FAMILY=Quartus Max10
+DEVICE=
+SPEED=
+LAST_RUN=1751963782
+DEVICE_TECHNOLOGY_MIGRATION_LIST=
+[Groups]
+timing=1
+[LocalVhdlSets]
+NetlistCompilation=1
+EnableVHDL93Key=0
+EnableVHDL2002Key=0
+EnableVHDL2008Key=0
+EnableVHDL2019Key=1
+DisableVHDL87Key=0
+Syntax RelaxLRM=0
+MaxErrorsKey=100
+CompileWithDebug=1
+OptimizationLevel=3
+DisableRangeChecks=0
+ProtectLevel=0
+IncrementalCompilation=1
+AdditionalOptions=

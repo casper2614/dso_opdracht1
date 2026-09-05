@@ -1,0 +1,142 @@
+Flow report for toplevel
+Tue Jul  8 10:37:05 2025
+Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2021  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Tue Jul  8 10:37:05 2025       ;
+; Quartus Prime Version              ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
+; Revision Name                      ; toplevel                                    ;
+; Top-level Entity Name              ; toplevel                                    ;
+; Family                             ; MAX 10                                      ;
+; Device                             ; 10M50DAF484C7G                              ;
+; Timing Models                      ; Final                                       ;
+; Total logic elements               ; 473 / 49,760 ( < 1 % )                      ;
+;     Total combinational functions  ; 473 / 49,760 ( < 1 % )                      ;
+;     Dedicated logic registers      ; 0 / 49,760 ( 0 % )                          ;
+; Total registers                    ; 0                                           ;
+; Total pins                         ; 54 / 360 ( 15 % )                           ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0 / 1,677,312 ( 0 % )                       ;
+; Embedded Multiplier 9-bit elements ; 0 / 288 ( 0 % )                             ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
+; UFM blocks                         ; 0 / 1 ( 0 % )                               ;
+; ADC blocks                         ; 0 / 2 ( 0 % )                               ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 07/08/2025 10:36:26 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; toplevel            ;
++-------------------+---------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                     ;
++--------------------------------------------------+-----------------------------------------------------------------------------------------------------------+---------------+-------------+-------------------------+
+; Assignment Name                                  ; Value                                                                                                     ; Default Value ; Entity Name ; Section Id              ;
++--------------------------------------------------+-----------------------------------------------------------------------------------------------------------+---------------+-------------+-------------------------+
+; ADV_NETLIST_OPT_RETIME_CORE_AND_IO               ; -- (Not supported for targeted family)                                                                    ; On            ; --          ; --                      ;
+; COMPILER_SIGNATURE_ID                            ; 145862326602541.175196378616644                                                                           ; --            ; --          ; --                      ;
+; EDA_GENERATE_POWER_INPUT_FILE                    ; Off                                                                                                       ; --            ; --          ; eda_simulation          ;
+; EDA_OUTPUT_DATA_FORMAT                           ; Vhdl                                                                                                      ; --            ; --          ; eda_simulation          ;
+; EDA_OUTPUT_DATA_FORMAT                           ; None                                                                                                      ; --            ; --          ; eda_board_design_symbol ;
+; EDA_SIMULATION_TOOL                              ; Active-HDL (VHDL)                                                                                         ; <None>        ; --          ; --                      ;
+; EDA_TIME_SCALE                                   ; 1 ps                                                                                                      ; --            ; --          ; eda_simulation          ;
+; INCREMENTAL_COMPILATION_EXPORT_FLATTEN           ; Off                                                                                                       ; --            ; --          ; --                      ;
+; INCREMENTAL_COMPILATION_EXPORT_POST_FIT          ; Off                                                                                                       ; --            ; --          ; --                      ;
+; INCREMENTAL_COMPILATION_EXPORT_POST_SYNTH        ; Off                                                                                                       ; --            ; --          ; --                      ;
+; INCREMENTAL_COMPILATION_EXPORT_ROUTING           ; -- (Not supported for targeted family)                                                                    ; --            ; --          ; --                      ;
+; MAX_CONSECUTIVE_OUTPUTS_FOR_ELECTROMIGRATION     ; 12                                                                                                        ; --            ; --          ; --                      ;
+; MAX_CONSECUTIVE_VIO_OUTPUTS_FOR_ELECTROMIGRATION ; 12                                                                                                        ; --            ; --          ; --                      ;
+; MAX_CURRENT_FOR_ELECTROMIGRATION                 ; 160                                                                                                       ; --            ; --          ; --                      ;
+; MAX_CURRENT_FOR_VIO_ELECTROMIGRATION             ; 160                                                                                                       ; --            ; --          ; --                      ;
+; OPTIMIZE_HOLD_TIMING                             ; IO Paths and Minimum TPD Paths                                                                            ; All Paths     ; --          ; --                      ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS                   ; Half Signal Swing                                                                                         ; --            ; --          ; --                      ;
+; OUTPUT_IO_TIMING_FAR_END_VMEAS                   ; Half Signal Swing                                                                                         ; --            ; --          ; --                      ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS                  ; Half Signal Swing                                                                                         ; --            ; --          ; --                      ;
+; OUTPUT_IO_TIMING_NEAR_END_VMEAS                  ; Half Signal Swing                                                                                         ; --            ; --          ; --                      ;
+; USER_LIBRARIES                                   ; C:/Users/bkse/home/vakken/ti_cp/DSO/practicum/VHDL/2025-2026/opdracht_assignment1/simulatie/Opdracht1/src ; --            ; --          ; --                      ;
++--------------------------------------------------+-----------------------------------------------------------------------------------------------------------+---------------+-------------+-------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:19     ; 1.0                     ; 4830 MB             ; 00:00:10                           ;
+; Fitter               ; 00:00:08     ; 1.1                     ; 5781 MB             ; 00:00:07                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4730 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:02     ; 1.1                     ; 4861 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4653 MB             ; 00:00:00                           ;
+; Total                ; 00:00:32     ; --                      ; --                  ; 00:00:21                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; LAPTOP-NHTN2HPM  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; LAPTOP-NHTN2HPM  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; LAPTOP-NHTN2HPM  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; LAPTOP-NHTN2HPM  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-NHTN2HPM  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Opdracht1 -c toplevel
+quartus_fit --read_settings_files=off --write_settings_files=off Opdracht1 -c toplevel
+quartus_asm --read_settings_files=off --write_settings_files=off Opdracht1 -c toplevel
+quartus_sta Opdracht1 -c toplevel
+quartus_eda --read_settings_files=off --write_settings_files=off Opdracht1 -c toplevel
+
+
+

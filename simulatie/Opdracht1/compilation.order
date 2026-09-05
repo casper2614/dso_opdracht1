@@ -1,0 +1,4 @@
+.\..\..\DE10_7SegmentDriver.vhd
+.\src\TestBench.vhdl
+.\..\..\TopLevel.vhd
+.\synthesis\simulation\activehdl\toplevel.vho

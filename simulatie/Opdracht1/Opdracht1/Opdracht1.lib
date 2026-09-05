@@ -1,0 +1,48 @@
+timestamp=1751965822947
+
+[~A]
+ModifyID=43
+Version=74
+
+[~MFT]
+0=8|0Opdracht1.mgf|69650|62368
+1=2|1Opdracht1.mgf|91852|87484
+3=2|3Opdracht1.mgf|39921|35673
+
+[sevensegmentdriver]
+BinW64/sevensegmentdriver=3*37110
+E=1*86147
+I=0*44259
+I/sevensegmentdriver=I/SevenSegmentDriver 0*65244
+M=3|2|vf5|1728571393001|../../../DE10_7SegmentDriver.vhd|0*43777*0xc4fb58d502cdba533b73bfcf4ca11eb53e7a620a|0*44155*0xd986fd7175c8cf28cd774bcadde79966
+M/sevensegmentdriver=M/SevenSegmentDriver 4|2|vf5|1751963700561|../../../DE10_7SegmentDriver.vhd|0*63634*0xe034eaf0fb3b188b0b0867dcedbdf503d43a61f7|0*65119*0x3666052002612506830c83371aef600f
+R=../../../DE10_7SegmentDriver.vhd|14
+Version=15.0.261.9132 (Windows64)|00000009789cd3f53756d0353230b40400090f01c9|084ea2794ee89e9500e24070024bebf3cb56b27a023c593dfa8762d022b59306c34f66a6970797a6d80eaf4a97580a67
+Version/sevensegmentdriver=15.0.261.9132 (Windows64)|0000000a789cd34d494a57d0353230b404000ec50274|084ea2794ee89e9500e24070024bebf3cb56b27a023c593dfa8762d022b59306b8d9288222eed7dff7ee91ba3f82c687
+
+[testbench]
+A/testbench=A/TestBench 21|../src/TestBench.vhdl|37|1*91852
+BinW64/testbench=3*39921
+I=0*34771
+I/testbench=I/TestBench 0*69650
+M=11|2|vf5|1728568423291|../src/TestBench.vhdl|0*34475*0xed1ca664b3cd6c1e9cafe5dd31d49fd53d7da215|0*34687*0xd986fd7175c8cf28cd774bcadde79966
+M/testbench=M/TestBench 21|2|vf5|1751965822933|../src/TestBench.vhdl|0*68446*0x0fdb6b7c25d449d4bfaef64dfe9201c94113fc47|0*69553*0x3666052002612506830c83371aef600f
+R=../src/TestBench.vhdl|31
+Version=15.0.261.9132 (Windows64)|00000009789cd3f53756d0353230b40400090f01c9|9c08cd30fe0f9550ac0d051aa32c9ba5030c5f4de3ffa3c97f58c5528f1d79136c62e62642e0b6530498aafbc503d7fa
+Version/testbench=15.0.261.9132 (Windows64)|0000000a789cd34d494a57d0353230b404000ec50274|9c08cd30fe0f9550ac0d051aa32c9ba5030c5f4de3ffa3c97f58c5528f1d7913cf498dbf1613cfc0ff44da23bdee9ce2
+
+[toplevel]
+A/toplevel_arch=21|../../../TopLevel.vhd|26|1*79594
+BinW64/toplevel_arch=3*32056
+I=0*47657
+I/toplevel_arch=0*58132
+M=11|2|vf5|1728571395573|../../../../../2023-2024/opdracht_assignment1/TopLevel.vhd|0*17491*0x1570489c35c99cfff43c82c5beb1891193f4ec8b|0*18004*0xd986fd7175c8cf28cd774bcadde79966
+M/toplevel_arch=21|2|vf5|1728571931055|../../../TopLevel.vhd|0*57154*0x871f8f3f93df19cde0abef5e775900fc566b0fd3|0*58032*0x3666052002612506830c83371aef600f
+R=../../../../../2023-2024/opdracht_assignment1/TopLevel.vhd|13
+Version=15.0.261.9132 (Windows64)|00000009789cd3f53756d0353230b40400090f01c9|3d089a8c14e62156934e188f6ca91a9f532924dc460548c1418b739990344c7eab996f1b7948a4ee1e39212dde6c7ecf
+Version/toplevel_arch=15.0.261.9132 (Windows64)|0000000a789cd34d494a57d0353230b404000ec50274|5d85260b94f5330ca712a6317e2e3c30d2446ec1c216a8804c3c62fe9afd28f2fb771b436ae29afcdc2c54f86cd24b47
+
+[~U]
+sevensegmentdriver=SevenSegmentDriver 3|0*43384|0*43526
+testbench=TestBench 11|0*34351|
+toplevel=11|0*17271|
