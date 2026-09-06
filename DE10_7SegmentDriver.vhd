@@ -32,18 +32,32 @@ package body SevenSegmentDriver is
  						 doReverse : boolean;
   						 doInverse : boolean) return std_logic_vector
 	is variable output: std_logic_vector(7 downto 0);
-	
--- Verwijder deze assert bij bewerking code / Remove this message when editing the code.
-assert false
-report "Beste student, Dit deel van de hardware ontbreekt/This part of thehardware is missing."
-severity failure;
-
 begin
- 
--- Verwijder deze assert bij bewerking code / Remove this message when editing the code.
-assert false
-report "Beste student, Dit deel van de hardware ontbreekt/This part of thehardware is missing."
-severity failure;
+
+	-- LOGIC
+	case input is
+		when 0 		=> output := "11111010";
+		when 1 		=> output := "10011110";
+		when 2 		=> output := "00100100";
+		when 3 		=> output := "00001100";
+		when 4 		=> output := "10011000";
+		when 5 		=> output := "01001000";
+		when 6 		=> output := "01000000";
+		when 7 		=> output := "00011110";
+		when 8	 	=> output := "00000000";
+		when 9 		=> output := "00001000";
+		when others => output := "11111110";
+	end case;
+
+	if doInverse then
+		output := not output;
+	end if;
+
+	if doReverse then
+		output := reverseVector(output);
+	end if;
+
+	return output;
 	
 end integer_to_ssd;
 
